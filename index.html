@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .red {
+      background-color: red;
+    }
+
+    .width {
+      width: 40px;
+      height: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <input type="button" value="点击">
+  <input type="button" value="点击">
+  <input type="button" value="点击">
+</body>
+
+</html>
+<!-- <script src="./jQuery-z.g.q/jquery-1.12.4.js"></script> -->
+<script src="./jQuery-z.g.q/jQuery-z.g.q.js"></script>
+<script>
+  const $input = $('input');
+
+
+  // $input.each(function (index, item) {
+  //   console.log(index, item, this)
+  // })
+
+  $input.addClass('red').addClass('width').removeClass('red').removeClass('width').toggleClass('width').toggleClass('red')
+  // console.log()
+  // const input=document.querySelector('#input');
+  // input.classList.toggle()
+  // function fn() {
+  //   console.log('...')
+  // }
+</script>
